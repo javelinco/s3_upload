@@ -1,0 +1,9 @@
+node_modules/
+dist/
+files/**
+*.orig
+.idea/
+.env
+*.key
+*.pem
+.DS_Store
