@@ -1,0 +1,10 @@
+{
+    "watch": [".env", "src/*.*"],
+    "ext": "ts,json",
+    "ignore": ["src/**/*.spec.ts"],
+    "execMap": {
+      "ts-node": "ts-node/register",
+      "cleanup": "--expose-gc",
+      "inspect": "--inspect=0.0.0.0:9229"
+    }
+}
