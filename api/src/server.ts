@@ -10,7 +10,12 @@ export default class Server {
   public static async start(): Promise<Hapi.Server> {
     try {
       const serverConfig: Hapi.ServerOptions = {
-        port: process.env.SERVICE_PORT
+        port: process.env.SERVICE_PORT,
+        routes: {
+          cors: {
+            origin: ['*']
+          }
+        }
       };
 
       Server._instance = new Hapi.Server(serverConfig);

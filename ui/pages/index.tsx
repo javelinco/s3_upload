@@ -2,7 +2,8 @@ import React from 'react';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import Dropzone, { StatusValue, IFileWithMeta } from 'react-dropzone-uploader';
+import Dropzone, { StatusValue, IFileWithMeta, IUploadParams } from 'react-dropzone-uploader';
+import { getPresignedUploadUrl } from '../src/services/aws-service';
 
 export default function Index() {
   return (
@@ -18,8 +19,11 @@ export default function Index() {
 }
 
 const Standard = () => {
-  const getUploadParams = () => {
-    return { url: 'https://httpbin.org/post' }
+  const getUploadParams = async ({ file, meta: { name } }: IFileWithMeta): Promise<IUploadParams> => {
+    const uploadUrl = await getPresignedUploadUrl(name)
+    const fileUrl = `${uploadUrl}/${name}`;
+    console.log(uploadUrl);
+    return { body: file, meta: { fileUrl }, url: uploadUrl, method: 'PUT' }
   }
 
   const handleChangeStatus = ({ meta }: { [name: string]: any }, status: StatusValue) => {
