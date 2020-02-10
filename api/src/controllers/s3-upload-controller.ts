@@ -22,16 +22,16 @@ export class S3UploadController implements Controller {
       },
       response: {
           schema: Joi.object({
-              uri: Joi.string()
+            form: Joi.object()
           }).label('UploadPostEndpointResponse')
       }
   })
   @post('/upload/endpoint/post')
   public async getUploadEndpointPost(request: HapiRequest<UploadRequest>): Promise<{ form: PresignedPost } | Boom<null>> {
     try {
-        const form = await createPresignedPost(request.payload.fileName);
-
-        return { form: form };
+      const form = await createPresignedPost(request.payload.fileName);
+      
+      return { form: form };
     } catch (e) {
         console.log(e);
         return Boom.serverUnavailable();
@@ -55,9 +55,9 @@ export class S3UploadController implements Controller {
   @post('/upload/endpoint/put')
   public async getUploadEndpointPut(request: HapiRequest<UploadRequest>): Promise<{ uri: string } | Boom<null>> {
     try {        
-        const signedUrl: string = await getSignedUrl(request.payload.fileName);
+      const signedUrl: string = await getSignedUrl(request.payload.fileName);
 
-        return { uri: signedUrl };
+      return { uri: signedUrl };
     } catch (e) {
       console.log(e);
       return Boom.serverUnavailable();

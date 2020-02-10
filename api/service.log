@@ -226,3 +226,44 @@
 {"message":"Plugins - registering swagger","level":"info","timestamp":"2020-02-07T16:36:46.781Z"}
 {"message":"Plugins - registered swagger","level":"info","timestamp":"2020-02-07T16:36:46.789Z"}
 {"message":"Server is running on http://MacBook-Pro:3050","level":"info","timestamp":"2020-02-07T16:36:46.845Z"}
+{"message":"Plugins - registering swagger","level":"info","timestamp":"2020-02-10T16:16:00.247Z"}
+{"message":"Plugins - registered swagger","level":"info","timestamp":"2020-02-10T16:16:00.255Z"}
+{"message":"Server is running on http://MacBook-Pro:3050","level":"info","timestamp":"2020-02-10T16:16:00.491Z"}
+{"message":"Plugins - registering swagger","level":"info","timestamp":"2020-02-10T16:25:54.847Z"}
+{"message":"Plugins - registered swagger","level":"info","timestamp":"2020-02-10T16:25:54.855Z"}
+{"message":"Server is running on http://MacBook-Pro:3050","level":"info","timestamp":"2020-02-10T16:25:54.913Z"}
+{"message":"Plugins - registering swagger","level":"info","timestamp":"2020-02-10T16:26:11.788Z"}
+{"message":"Plugins - registered swagger","level":"info","timestamp":"2020-02-10T16:26:11.796Z"}
+{"message":"Server is running on http://MacBook-Pro:3050","level":"info","timestamp":"2020-02-10T16:26:11.852Z"}
+{"message":"\"form\" is not allowed","statusCode":500,"name":"ValidationError","stacktrace":"ValidationError: \"form\" is not allowed","level":"error","timestamp":"2020-02-10T16:45:37.182Z"}
+{"message":"Plugins - registering swagger","level":"info","timestamp":"2020-02-10T17:38:38.753Z"}
+{"message":"Plugins - registered swagger","level":"info","timestamp":"2020-02-10T17:38:38.762Z"}
+{"message":"Server is running on http://MacBook-Pro:3050","level":"info","timestamp":"2020-02-10T17:38:38.925Z"}
+{"message":"\"form\" is not allowed","statusCode":500,"name":"ValidationError","stacktrace":"ValidationError: \"form\" is not allowed","level":"error","timestamp":"2020-02-10T17:38:54.661Z"}
+{"message":"Plugins - registering swagger","level":"info","timestamp":"2020-02-10T17:41:03.265Z"}
+{"message":"Plugins - registered swagger","level":"info","timestamp":"2020-02-10T17:41:03.273Z"}
+{"message":"Server is running on http://MacBook-Pro:3050","level":"info","timestamp":"2020-02-10T17:41:03.313Z"}
+{"message":"\"form\" is not allowed","statusCode":500,"name":"ValidationError","stacktrace":"ValidationError: \"form\" is not allowed","level":"error","timestamp":"2020-02-10T17:41:06.895Z"}
+{"message":"Plugins - registering swagger","level":"info","timestamp":"2020-02-10T17:45:14.247Z"}
+{"message":"Plugins - registered swagger","level":"info","timestamp":"2020-02-10T17:45:14.254Z"}
+{"message":"Server is running on http://MacBook-Pro:3050","level":"info","timestamp":"2020-02-10T17:45:14.311Z"}
+{"message":"\"form\" is not allowed","statusCode":500,"name":"ValidationError","stacktrace":"ValidationError: \"form\" is not allowed","level":"error","timestamp":"2020-02-10T17:45:16.281Z"}
+{"message":"Plugins - registering swagger","level":"info","timestamp":"2020-02-10T17:45:33.947Z"}
+{"message":"Plugins - registered swagger","level":"info","timestamp":"2020-02-10T17:45:33.955Z"}
+{"message":"Server is running on http://MacBook-Pro:3050","level":"info","timestamp":"2020-02-10T17:45:34.007Z"}
+{"message":"Plugins - registering swagger","level":"info","timestamp":"2020-02-10T17:47:48.514Z"}
+{"message":"Plugins - registered swagger","level":"info","timestamp":"2020-02-10T17:47:48.522Z"}
+{"message":"Server is running on http://MacBook-Pro:3050","level":"info","timestamp":"2020-02-10T17:47:48.563Z"}
+{"message":"\"form\" is not allowed","statusCode":500,"name":"ValidationError","stacktrace":"ValidationError: \"form\" is not allowed","level":"error","timestamp":"2020-02-10T17:47:51.860Z"}
+{"message":"Plugins - registering swagger","level":"info","timestamp":"2020-02-10T17:48:30.134Z"}
+{"message":"Plugins - registered swagger","level":"info","timestamp":"2020-02-10T17:48:30.143Z"}
+{"message":"Server is running on http://MacBook-Pro:3050","level":"info","timestamp":"2020-02-10T17:48:30.183Z"}
+{"message":"Plugins - registering swagger","level":"info","timestamp":"2020-02-10T17:48:37.336Z"}
+{"message":"Plugins - registered swagger","level":"info","timestamp":"2020-02-10T17:48:37.344Z"}
+{"message":"Server is running on http://MacBook-Pro:3050","level":"info","timestamp":"2020-02-10T17:48:37.384Z"}
+{"message":"Plugins - registering swagger","level":"info","timestamp":"2020-02-10T17:48:57.379Z"}
+{"message":"Plugins - registered swagger","level":"info","timestamp":"2020-02-10T17:48:57.386Z"}
+{"message":"Server is running on http://MacBook-Pro:3050","level":"info","timestamp":"2020-02-10T17:48:57.426Z"}
+{"message":"Plugins - registering swagger","level":"info","timestamp":"2020-02-10T17:49:25.609Z"}
+{"message":"Plugins - registered swagger","level":"info","timestamp":"2020-02-10T17:49:25.617Z"}
+{"message":"Server is running on http://MacBook-Pro:3050","level":"info","timestamp":"2020-02-10T17:49:25.670Z"}

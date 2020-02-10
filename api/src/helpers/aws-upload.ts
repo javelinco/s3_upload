@@ -8,8 +8,6 @@ export async function createPresignedPost(fileName: string): Promise<PresignedPo
         const client = new AWS.S3(getClientConfiguration(false));
         const params = {
             Bucket: process.env.AWS_BUCKET_NAME,
-            Key: fileName,
-            Expires: 30 * 60, // 30 minutes
             Fields: {
                 Key: fileName
             }
@@ -42,7 +40,6 @@ function getClientConfiguration(useAccelerateEndpoint: boolean): ClientConfigura
         useAccelerateEndpoint: useAccelerateEndpoint,
         s3ForcePathStyle: !useAccelerateEndpoint
     };
-    console.log(clientConfiguration, 'Client Config');
     return clientConfiguration;
 }
 

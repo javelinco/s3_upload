@@ -21,9 +21,9 @@ export default function Index() {
 const Standard = () => {
   const getUploadParams = async ({ file, meta: { name } }: IFileWithMeta): Promise<IUploadParams> => {
     const uploadUrl = await getPresignedUploadUrl(name)
-    const fileUrl = `${uploadUrl}/${name}`;
-    console.log(uploadUrl);
-    return { body: file, meta: { fileUrl }, url: uploadUrl, method: 'PUT' }
+    // const fileUrl = `${uploadUrl}/${name}`;
+    console.log(name, uploadUrl, file);
+    return { body: file, meta: { name }, url: uploadUrl }
   }
 
   const handleChangeStatus = ({ meta }: { [name: string]: any }, status: StatusValue) => {
