@@ -23,7 +23,7 @@ const Standard = () => {
     const uploadUrl = await getPresignedUploadUrl(name)
     // const fileUrl = `${uploadUrl}/${name}`;
     console.log(name, uploadUrl, file);
-    return { body: file, meta: { name }, url: uploadUrl }
+    return { body: file, meta: { name }, url: uploadUrl, method: 'PUT' }
   }
 
   const handleChangeStatus = ({ meta }: { [name: string]: any }, status: StatusValue) => {
